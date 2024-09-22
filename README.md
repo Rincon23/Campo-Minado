@@ -8,3 +8,4 @@ O jogo pode ser jogado em dois modos: 5x5 ou 10x10.
 
 # Como compilar:
 Recomendo que utilize um compilador online, como o onlineGDB já que ele foi feito para se jogar no console.
+Copie o código que está no arquivo Campo Minado.cpp e cole no compilador online
