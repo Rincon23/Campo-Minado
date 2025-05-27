@@ -14,7 +14,7 @@ int main(void) {
         printf("Jogador 1: %d\n", pontuacaojog1);
         printf("Jogador 2: %d\n\n", pontuacaojog2);
         printf("Digite a opcao:");
-        scanf_s("%d", &op);
+        scanf("%d", &op);
 
         if (op == 1) {
             int perdeu = 0;
@@ -65,10 +65,10 @@ int main(void) {
                 printf("\nJogador numero %d digite a posicao em que quer jogar:\n", jogador);
                 printf("\n");
                 printf("Linha: ");
-                scanf_s("%d", &lin);
+                scanf("%d", &lin);
                 lin--;
                 printf("Coluna: ");
-                scanf_s("%d", &col);
+                scanf("%d", &col);
                 col--;
                 printf("\n");
                 if (((lin > -1) && (lin < 5)) && ((col > -1) && (col < 5))) {
@@ -167,10 +167,10 @@ int main(void) {
                 printf("\nJogador numero %d digite a posicao em que quer jogar:\n", jogador);
                 printf("\n");
                 printf("Linha: ");
-                scanf_s("%d", &lin);
+                scanf("%d", &lin);
                 lin--;
                 printf("Coluna: ");
-                scanf_s("%d", &col);
+                scanf("%d", &col);
                 col--;
                 printf("\n");
                 if (((lin > -1) && (lin < 10)) && ((col > -1) && (col < 10))) {
@@ -189,7 +189,8 @@ int main(void) {
                             else if (jogador == 2) {
                                 jogador = 1;
                             }
-                            printf("JOGADOR %d ganhou", jogador);
+                            printf("Você achou uma bomba, que pena!");
+                            printf("Jogador %d ganhou", jogador);
                         }
                         else {
                             vetf[lin][col] = 'X';
