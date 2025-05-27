@@ -1,6 +1,6 @@
 <h1> Campo minado </h1>
 <p>
-  <img src="Img/Logo.png" width="450">
+  <img src="Img/Logo.png" width="400" height="300">
 </p>
 
 ---
@@ -43,51 +43,11 @@
 
 ### Abaixo está uma explicação da estrutura do projeto e da função de cada parte:
 
-    ├── Arquivo Executável
-    │   └── BestMeals.exe
-    │       → Instalador do programa para rodar no Windows sem necessidade de abrir código.
-    ├── Flask
-    │   ├── BancoDeDados.py
-    │       → Script responsável pela criação e manipulação do banco de dados SQLite.
-    │   ├── Main.py
-    │       → Arquivo principal que inicia o servidor Flask e o sistema.
-    │   ├── Restaurante.py
-    │       → Classe que representa os dados de um restaurante.
-    │   ├── RestauranteAvaliacao.py
-    │       → Classe que representa uma avaliação de restaurante.
-    │   ├── static
-    │   │   └── css
-    │   │       → Arquivos CSS responsáveis pelo estilo visual das páginas.
-    │   │       ├── Style-Restaurante-Avaliar.css
-    │   │       ├── Style-Restaurante-Cadastrar.css
-    │   │       ├── Style-Restaurante-Editar.css
-    │   │       ├── Style-Restaurante-VerAvaliacoes.css
-    │   │       └── Style.css (geral)
-    │   └── templates
-    │       → Páginas HTML renderizadas pelo Flask.
-    │       ├── Menu.html
-    │       ├── Restaurante-Avaliar.html
-    │       ├── Restaurante-Cadastrar.html
-    │       ├── Restaurante-Consultar.html
-    │       ├── Restaurante-Editar.html
-    │       ├── Restaurante-VerAvaliacoes.html
-    │       └── Restaurantes.html
-    │
-    ├── Imagens
-    |   → Imagens utilizadas na apresentação e documentação do projeto.
-    │    ├── Avaliação
-    │    ├── AvaliaçõesDoRestaurante
-    │    ├── Cadastro
-    │    ├── ImagemProjeto
-    │    ├── Menu
-    │    ├── TabelaComAvaliações
-    │    └── TabelaRestaurantes
-    │
-    ├── .gitignore
-    │   → Arquivo para ignorar arquivos e pastas no versionamento Git.
-    │
-    └── README.md
-        → Arquivo de documentação do projeto (este aqui).
+    ├── Campo Minado.cpp → Script responsável por toda a lógica e interface do jogo  
+    ├── Img → Imagens utilizadas na apresentação e documentação do projeto.
+        ├── Campo minado.png
+        └── Logo.png
+    └── README.md → Arquivo de documentação do projeto (este aqui).
 
 <a id="ImagensDoSistema"></a>
 
