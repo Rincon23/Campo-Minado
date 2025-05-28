@@ -36,8 +36,9 @@
 
 ## 🎮 Como jogar
 
-####  Clique [AQUI](https://github.com/Rincon23/BestMeals/tree/main/Arquivo%20Execut%C3%A1vel) para ser redirecionado ao compilador online pronto para jogar!
-
+#### Basta clicar no botão a baixo para ser redirecionado ao compilador online e apertar F9, assim que abrir o console já estará pronto para jogar!
+### <a href="https://onlinegdb.com/gHwWeJHDM"><img src="https://img.shields.io/badge/Play-00C853?style=for-the-badge&logo=play=white"/></a>
+<a id="EstruturaDePastas"></a>
 
 ## 📁 Estrutura de Pastas e Arquivos
 
