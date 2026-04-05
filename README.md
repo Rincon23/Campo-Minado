@@ -1,5 +1,5 @@
-<h1> Campo minado </h1>
-<p>
+<h1 align="center"> Campo minado </h1>
+<p align="center">
   <img src="Img/Logo.png" width="400" height="300">
 </p>
 
